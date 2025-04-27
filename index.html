@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <!-- Font Awesome for Arrows -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Propzilla Assisgment</title>
+
+</head>
+
+<body>
+    <section class="banner-wrapper position-relative">
+        <section class="header position-absolute w-100">
+            <nav class="navbar navbar-expand-lg navbar-custom">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+                    <!-- Left Icons -->
+                    <div class="d-flex align-items-center">
+                        <button class="icon-btn me-3">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <!-- Center Menu -->
+                    <div class="d-flex align-items-center">
+                        <ul class="navbar-nav flex-row me-auto">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">DESIGN</a>
+                            </li>
+                        </ul>
+
+                        <!-- Logo -->
+                        <img src="TWG-LOGO-white.png" class="logo mx-4" alt="Logo">
+
+                        <ul class="navbar-nav flex-row ms-auto">
+                            <li class="nav-item dropdown mx-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="residentialDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    RESIDENTIAL
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">Luxury Homes</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Penthouse</a></li>
+                                            <li><a class="dropdown-item" href="#">Duplex Villas</a></li>
+                                            <li><a class="dropdown-item" href="#">Sky Bungalows</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Apartments</a></li>
+                                    <li><a class="dropdown-item" href="#">Villas</a></li>
+                                </ul>
+                            </li>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">COMMERCIAL</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">TOWNSHIP</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">REDEVELOPMENT</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Right Icons -->
+                    <div class="d-flex align-items-center right-icons">
+                        <div class="icon-btn callUs">
+                            <img src="menu-cta-white.png" alt="">
+                        </div>
+                        <div class="icon-btn" style="border: none;">
+                            <span style="font-size: 2rem;">≡</span> <!-- Hamburger menu icon -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="crousel-banner position-relative">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+
+                                <!-- Slide 1 -->
+                                <div class="swiper-slide" style="background-image: url('home-banner1.jpg');">
+                                    <div class="dark-overlay"></div>
+                                    <div class="slide-content">
+                                        <h1>LANDMARKS PLANNED<br>WITH PASSION</h1>
+                                        <p>Transforming Mumbai's Skyline Since 1969</p>
+                                    </div>
+                                    <div class="right-overlay-img" style="background-image: url('home-banner1-a.png');">
+                                    </div>
+                                </div>
+
+                                <!-- Slide 2 -->
+                                <div class="swiper-slide" style="background-image: url('home-banner2.jpg');">
+                                    <div class="dark-overlay"></div>
+                                    <div class="slide-content">
+                                        <h1>EXPERIENCE ELEGANCE<br>AT EVERY STEP</h1>
+                                        <p>Premium Living Spaces</p>
+                                    </div>
+                                    <div class="right-overlay-img" style="background-image: url('home-banner2-a.png');">
+                                    </div>
+                                </div>
+
+                                <!-- Slide 3 -->
+                                <div class="swiper-slide" style="background-image: url('home-banner3.jpg');">
+                                    <div class="dark-overlay"></div>
+                                    <div class="slide-content">
+                                        <h1>CREATING SPACES<br>THAT INSPIRE</h1>
+                                        <p>Innovative Designs, Timeless Beauty</p>
+                                    </div>
+                                    <div class="right-overlay-img" style="background-image: url('home-banner3-a.png');">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Pagination -->
+                            <div class="swiper-pagination"></div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="about pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <div class="aboutContent">
+                        <h2>A brief <br> About us</h2>
+                        <p><strong>The Wadhwa Group</strong> carries a rich legacy of 5+ Decades built on the trust and
+                            belief of our customers and stakeholders. The group is one of Mumbai’s leading real estate
+                            companies with 250+ Landmarks and is currently developing residential, commercial and
+                            township projects spread across approximately 4.1 Million Sq.M.</p>
+                        <p>Timely completion of projects coupled with strong planning and design innovation gives the
+                            group an edge over its competitors. As an organization, the group is also known for its
+                            employee-friendly and professional working environment. Today, the group’s clientele
+                            comprises of over 35,000+ satisfied customers and over 150 + MNCs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img1 position-relative">
+                        <img src="home-about1.jpg" alt="" class="img-fluid">
+
+                    </div>
+                    <div class="img2 position-absolute">
+                        <img src="platina.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter-section pb-5" style="background-image: url('cement-texture.jpg');">
+        <div class="counter-container">
+            <div class="row pt-5 g-4">
+                <div class="col-lg-6">
+                    <div class="card-box">
+                        <img src="1-1.png" alt="">
+                        <div class="counter" id="counter1">5+</div>
+                        <h6>DECADES OF EXPERIENCE IN ICONIC DEVELOPMENTS</h6>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-box">
+                        <img src="2-1.png" alt="">
+                        <div class="counter" id="counter2">4.I</div>
+                        <h6>MILLION SQ. M. OF RESIDENTIAL & COMMERCIAL SPACES
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-box">
+                        <img src="3-1.png" alt="">
+                        <div class="counter">CONSISTENT</div>
+                        <h6>ACCOLADES FOR LIFE ENHANCEMENT</h6>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-box">
+                        <img src="4-1.png" alt="">
+                        <div class="counter">STRONG</div>
+                        <h6>FOCUS ON PLANNING, DESIGNS & EXECUTION.</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card-box">
+                        <img src="5-1.png" alt="">
+                        <div class="counter" id="counter2">4.I</div>
+                        <h6>MILLION SQ. M. OF RESIDENTIAL & COMMERCIAL SPACES
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card-box">
+                        <img src="6-2.png" alt="">
+                        <div class="counter" id="counter2">4.I</div>
+                        <h6>MILLION SQ. M. OF RESIDENTIAL & COMMERCIAL SPACES
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card-box">
+                        <img src="7.png" alt="">
+                        <div class="counter" id="counter2">4.I</div>
+                        <h6>MILLION SQ. M. OF RESIDENTIAL & COMMERCIAL SPACES
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="carousel-section">
+        <div class="crousel-heading">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Current Projects</h2>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-container">
+            <button class="prev" id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
+            <div class="carousel row">
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+
+                    <img src="magnolia-list.jpg" alt="Card 1">
+                    <h3>Magnolia</h3>
+                    <p>Panvel</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img src="New-Project-21.jpg" alt="Card 2">
+                    <h3>The reserve</h3>
+                    <p>Panvel</p>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+
+                    <img src="o2-list2.jpg" alt="Card 3">
+                    <h3>Atmosphere O2</h3>
+                    <p>GMLR, Mulund West</p>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img src="tulip-appartments.jpg" alt="Card 4">
+                    <h3>Tulip Appartments</h3>
+                    <p>Panvel</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img src="the-h.jpg" alt="Card 4">
+                    <h3>Evara</h3>
+                    <p>Panvel</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img src="tw-list.jpg" alt="Card 4">
+                    <h3>Tw Gardens</h3>
+                    <p> Kandivali East </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img src="venue-52.jpg" alt="Card 4">
+                    <h3>Venue 52</h3>
+                    <p>Khar West</p>
+                </div>
+            </div>
+            <button class="next" id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section class="design" style="background: url('cement-texture.jpg');" class="img-fluid">
+        <div class="container-fluid">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="img w-100">
+                        <img src="index-image.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="designContent">
+                        <h3>We Design Your World With Our Hearts</h3>
+                        <p>Setting a strong foundation for you</p>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="fa-solid fa-angle-right"></i>Impeccable project execution</li>
+                                <li><i class="fa-solid fa-angle-right"></i>Transparency in dealings</li>
+                                <li><i class="fa-solid fa-angle-right"></i>Litigation-free projects</li>
+                                <li><i class="fa-solid fa-angle-right"></i>Positive exit covenants (Institutions,
+                                    Investors, Customers)</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="fa-solid fa-angle-right"></i>Impeccable project execution</li>
+                                <li><i class="fa-solid fa-angle-right"></i>Transparency in dealings</li>
+                                <li><i class="fa-solid fa-angle-right"></i>Litigation-free projects</li>
+                                <li><i class="fa-solid fa-angle-right"></i>Positive exit covenants (Institutions,
+                                    Investors, Customers)</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-12 align-center pt-4">
+                            <div class="logoImg">
+                                <img src="VENTILIT-Wadhwa-04.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="awards-crousel carousel-section">
+        <div class="crousel-heading container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Awards</h2>
+                    <p>Our Accolades over the Years</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-container container position-relative">
+            <div class="owl-carousel owl-theme awards-carousel">
+
+                <!-- Card 1 -->
+                <div class="card award">
+                    <img src="aw-3.png" alt="Award 1">
+                    <h3>CNBC TV18 Real Estate Business Excellence Award 2025</h3>
+                    <p>Best Integrated Township Project of the Year 2025 - Wadhwa Wise City</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card award">
+                    <img src="aw-4.png" alt="Award 2">
+                    <h3>ASIAN REAL ESTATE LEARDERSHIP AWARD</h3>
+                    <p>INNOVATIVE PROJECT OF THE YEAR 2021 - WADHWA PRISTINE</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card award">
+                    <img src="aw-2.png" alt="Award 3">
+                    <h3>13 REALTY+ CONCLAVE & EXCELLENCE AWARDS, 2021</h3>
+                    <p>DEVELOPER OF THE YEAR RESIDENTAL</p>
+                </div>
+                <div class="card award">
+                    <img src="aw-3.png" alt="Award 1">
+                    <h3>CNBC TV18 Real Estate Business Excellence Award 2025</h3>
+                    <p>Best Integrated Township Project of the Year 2025 - Wadhwa Wise City</p>
+                </div>
+
+                <div class="card award">
+                    <img src="aw-4.png" alt="Award 2">
+                    <h3>ASIAN REAL ESTATE LEARDERSHIP AWARD</h3>
+                    <p>INNOVATIVE PROJECT OF THE YEAR 2021 - WADHWA PRISTINE</p>
+                </div>
+
+                <div class="card award">
+                    <img src="aw-2.png" alt="Award 3">
+                    <h3>13 REALTY+ CONCLAVE & EXCELLENCE AWARDS, 2021</h3>
+                    <p>DEVELOPER OF THE YEAR RESIDENTAL</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="testimonial-section" style="background: url(cement-texture.jpg);">
+        <h2>Testimonials</h2>
+
+        <div class="testimonial-carousel">
+            <div class="testimonial-item active">
+                <p>"I am really thankful to Wadhwa Group and its team for giving me an opportunity to invest in such a
+                    beautiful location..."</p>
+                <img src="testimonial6.png" alt="User Image">
+                <h3>Uma Shankar Mehta</h3>
+                <p class="title">Associate Director, DTZ India</p>
+            </div>
+
+            <div class="testimonial-item">
+                <p>"I am really thankful to Wadhwa Group and its team for giving me an opportunity to invest in such a
+                    beautiful location..."</p>
+                <img src="testimonial6.png" alt="User Image">
+                <h3>Uma Shankar Mehta</h3>
+                <p class="title">Associate Director, DTZ India</p>
+            </div>
+
+            <div class="testimonial-item">
+                <p>"I am really thankful to Wadhwa Group and its team for giving me an opportunity to invest in such a
+                    beautiful location..."</p>
+                <img src="testimonial6.png" alt="User Image">
+                <h3>Uma Shankar Mehta</h3>
+                <p class="title">Associate Director, DTZ India</p>
+            </div>
+        </div>
+
+        <button class="arrow left">&#8592;</button>
+        <button class="arrow right">&#8594;</button>
+    </div>
+
+
+    <div class="content pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>With a rich legacy spanning decades, <strong>The Wadhwa Group</strong> has emerged as one of the
+                        top builders in
+                        Mumbai. Our commitment to excellence, coupled with a passion for innovation, has led us to
+                        create luxurious projects that redefine urban living.</p>
+
+                    <p>As prominent builders in Mumbai, we take pride in our journey of developing residential,
+                        commercial, and township projects that reflect our unwavering dedication to quality and customer
+                        satisfaction.</p>
+
+                    <p>At The Wadhwa Group, our name is synonymous with trust, quality, and luxury. We understand that a
+                        home is not just a structure; it’s where dreams take shape and memories are made. This belief
+                        drives us to create spaces that resonate with your lifestyle and aspirations.</p>
+                    <a href="#" class="button">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact-form-section">
+        <div class="container">
+
+
+            <form class="contact-form">
+                <div class="form-header text-center">
+                    <h2>Request Call Back</h2>
+                    <p>Please Fill Your Details Below</p>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <i class="fas fa-mobile-alt"></i>
+                        <input type="text" placeholder="Mobile" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <i class="fas fa-calendar-alt"></i>
+                        <input type="text" placeholder="dd-mm-yyyy" onfocus="(this.type='date')" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-building"></i>
+                        <select required>
+                            <option value="">Interested Projects</option>
+                            <option value="Project 1">Project 1</option>
+                            <option value="Project 2">Project 2</option>
+                            <option value="Project 3">Project 3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group full-width">
+                        <i class="fas fa-comment-dots"></i>
+                        <textarea placeholder="Message" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <a type="submit" class="submitBtn">Contact</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 contact">
+                    <h3>Contact</h3>
+                    <p>The Wadhwa Group</p>
+                    <p>Email:<a href="mailto:enquiry@thewadhwagroup.com"> enquiry@thewadhwagroup.com</a></p>
+                    <p>
+                    <p>Toll Free:<a href="tel:1800 209 6669"> 1800 209 6669</a></p>
+                    </p>
+                    <div class="social-icon">
+                        <ul>
+                            <li><img src="facebook.png" alt=""></li>
+                            <li><img src="insta.png" alt=""></li>
+                            <li><img src="youtube.png" alt=""></li>
+                            <li><img src="linkedln.png" alt=""></li>
+                            <li><img src="twitter.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Our Projects</h3>
+                    <p>Residential</p>
+                    <ul>
+                        <li>TW Gardens</li>
+                        <li>Atmosphere O2</li>
+                        <li>Wadhwa Wise City</li>
+                        <li>Magnolia</li>
+                        <li> The Haven</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Flats for sale in panvel</li>
+                        <li>New projects in panvel</li>
+                        <li>1 and 2 bhk in panvel</li>
+                        <li>2 and 3 bhk in mulund</li>
+                        <li>New projects in mulund</li>
+                        <li>2 and 3 bhk flat in kandivali east</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="enquire-form">
+                        <h3>ENQUIRE</h3>
+                        <form>
+                            <div class="input-group">
+                                <input type="text" id="name" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" id="mobile" name="mobile" placeholder="Mobile" required>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <span class="arrow">&#8594;</span>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="col-lg-12 text-center">
+                    <div class="copyright">
+                        <p>COPYRIGHT © 2024. The WADHWA GROUP. ALL RIGHTS RESERVED</p>
+                        <p>Disclaimer | Privacy Policy</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/511440a261.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
