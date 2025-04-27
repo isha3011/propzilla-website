@@ -427,14 +427,14 @@ button {
 
 /* contact form */
 .contact-form-section {
-  background: #f7f7f7 url("image/contact-bg.jpg") no-repeat center;
+  background: #f7f7f7 url("contact-bg.jpg") no-repeat center;
   background-size: cover;
   padding: 50px 20px;
   background-attachment: fixed;
 }
 
 .container form {
-  background: url(image/cement-texture.jpg);
+  background: url(cement-texture.jpg);
   padding: 40px;
   max-width: 900px;
   margin: 0 auto;
