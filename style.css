@@ -37,7 +37,7 @@ h6 {
   background: white;
 }
 .logo {
-  width: 80px;
+  width: 120px;
 }
 .icon-btn {
   background: none;
@@ -76,8 +76,73 @@ h6 {
 .icon-btn i {
   font-size: 25px;
 }
+/* sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100vh;
+    background: #222;
+    color: #fff;
+    transition: right 0.3s ease-in-out;
+    z-index: 999;
+    padding: 20px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+}
+
+.sidebar-logo {
+    width: 150px;
+    margin: 20px 0;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.sidebar-menu li {
+    margin: 15px 0;
+}
+
+.sidebar-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar-social {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 5px;
+    font-size: 20px;
+}
+.close-btn{
+    top: 5%;
+    right: 10%;
+}
+/* sidebar ends */
 .crousel-banner {
-  position: relative; /* Important: Banner is relative */
+  position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
